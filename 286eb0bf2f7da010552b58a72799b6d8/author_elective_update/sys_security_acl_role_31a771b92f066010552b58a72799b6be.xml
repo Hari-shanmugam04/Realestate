@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 08:38:29</sys_created_on>
+        <sys_id>31a771b92f066010552b58a72799b6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_538229_realestat_lease_line_dummy.x_538229_realestat.lease_line_dummy_user</sys_name>
+        <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+        <sys_security_acl display_value="x_538229_realestat_lease_line_dummy">7da771b92f066010552b58a72799b6b9</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_31a771b92f066010552b58a72799b6be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 08:38:29</sys_updated_on>
+        <sys_user_role display_value="x_538229_realestat.lease_line_dummy_user" name="x_538229_realestat.lease_line_dummy_user">11a7f5792f066010552b58a72799b667</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</application>
+        <file_path/>
+        <instance_id>d3aedbeadbd15f844c1ff70fbf9619b6</instance_id>
+        <instance_name>dev55569</instance_name>
+        <name>sys_security_acl_role_31a771b92f066010552b58a72799b6be</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-01 08:38:29</sys_created_on><sys_id>31a771b92f066010552b58a72799b6be</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_538229_realestat_lease_line_dummy.x_538229_realestat.lease_line_dummy_user</sys_name><sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package><sys_policy/><sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope><sys_security_acl display_value="x_538229_realestat_lease_line_dummy">7da771b92f066010552b58a72799b6b9</sys_security_acl><sys_update_name>sys_security_acl_role_31a771b92f066010552b58a72799b6be</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-01 08:38:29</sys_updated_on><sys_user_role display_value="x_538229_realestat.lease_line_dummy_user" name="x_538229_realestat.lease_line_dummy_user">11a7f5792f066010552b58a72799b667</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>1408601281</payload_hash>
+        <record_name>x_538229_realestat_lease_line_dummy.x_538229_realestat.lease_line_dummy_user</record_name>
+        <reverted_from/>
+        <source>ac6eb0bf2f7da010552b58a72799b6da</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 08:38:29</sys_created_on>
+        <sys_id>7da771b92f066010552b58a72799b6c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1775cbe43e30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 08:38:29</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>b5a771b9cf066010d5c2707faf6e92c1</update_guid>
+        <update_guid_history>b5a771b9cf066010d5c2707faf6e92c1:1408601281</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_538229_realestat_lease_line_dummy.x_538229_realestat.lease_line_dummy_user">acd9393d2f066010552b58a72799b628</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-01 08:47:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>76acc8fe61f2491090452f955ad6bd44</sys_id>
+        <sys_metadata>31a771b92f066010552b58a72799b6be</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_538229_realestat_lease_line_dummy.x_538229_realestat.lease_line_dummy_user</sys_name>
+        <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+        <sys_parent display_value="">7da771b92f066010552b58a72799b6b9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+        <sys_scope_delete display_value="">3660a1e35308420686a0d62ef986f504</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_31a771b92f066010552b58a72799b6be</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_31a771b92f066010552b58a72799b6be">7da771b92f066010552b58a72799b6c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-01 08:47:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_538229_realestat.Leaseproperty</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Leaseproperty</name>
+        <script><![CDATA[var Leaseproperty = Class.create();
+Leaseproperty.prototype = {
+    initialize: function() {
+    },
+getpropertyForincidnet: function(){
+		var property;
+	
+
+		var lease= current.lease;
+
+		if (current.getTableName() == 'incident') {
+			property= new GlideRecord("x_538229_realestat_property");
+			if (!gs.nil(current.service)) {
+				var qc = property.addQuery("ci", current.service);
+				qc.addOrCondition("parent.ci", current.service);
+			}
+		} 
+
+		 if (!gs.nil(consumer))
+			asset.addQuery("lease", lease);
+
+		return asset.getEncodedQuery();
+
+	},
+    type: 'Leaseproperty'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-03 07:48:25</sys_created_on>
+        <sys_id>7c1f375e2f826010552b58a72799b6ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leaseproperty</sys_name>
+        <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+        <sys_update_name>sys_script_include_7c1f375e2f826010552b58a72799b6ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-03 07:48:25</sys_updated_on>
+    </sys_script_include>
+</record_update>

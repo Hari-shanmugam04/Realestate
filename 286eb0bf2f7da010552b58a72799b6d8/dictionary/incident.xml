@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="email_client=true,hasWorkflow=true,live_feed=true,all_tables.query_hints=true" audit="true" extends="task" label="Incident" max_length="40" name="incident" sizeclass="162" text_index="true" type="collection">
+        <element label="Consumer" max_length="32" name="x_538229_realestat_consumer" reference="csm_consumer" type="reference"/>
+        <element label="Lease Id" max_length="32" name="x_538229_realestat_lease_id" reference="x_538229_realestat_lease" type="reference"/>
+        <element label="Property Id" max_length="32" name="x_538229_realestat_property_id" reference="x_538229_realestat_property" reference_qual="javascript: new Leaseproperty().getpropertyForincidnet();" type="reference" use_reference_qualifier="advanced"/>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Lease_lines" max_length="40" name="x_538229_realestat_lease_lines" sizeclass="4" type="collection">
+        <element label="Discount" max_length="40" name="discount" type="integer"/>
+        <element label="End_date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Lease_id" max_length="32" name="lease_id" read_only="true" reference="x_538229_realestat_lease" type="reference"/>
+        <element label="Net_price" max_length="40" name="net_price" type="integer"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Price" max_length="20" name="price" type="price"/>
+        <element label="Property_id" max_length="32" name="property_id" reference="x_538229_realestat_property" type="reference"/>
+        <element label="Start_date" max_length="40" name="start_date" type="glide_date"/>
+        <index name="index">
+            <element name="lease_id"/>
+        </index>
+        <index name="index2">
+            <element name="property_id"/>
+        </index>
+    </element>
+</database>
