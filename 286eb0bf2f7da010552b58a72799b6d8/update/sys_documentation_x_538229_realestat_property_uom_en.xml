@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="uom" label="UOM" language="en" table="x_538229_realestat_property">
+    <sys_documentation element="uom" label="Unit of measurement" language="en" table="x_538229_realestat_property">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>uom</element>
             <help/>
             <hint/>
-            <label>UOM</label>
+            <label>Unit of measurement</label>
             <language>en</language>
             <name>x_538229_realestat_property</name>
-            <plural>UOMs</plural>
+            <plural>Unit of measurements</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 23:55:57</sys_created_on>
-            <sys_id>058645b72fbda010552b58a72799b64d</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>UOM</sys_name>
+            <sys_created_on>2021-02-07 05:45:37</sys_created_on>
+            <sys_id>08a908f32f4e2010552b58a72799b6fd</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Unit of measurement</sys_name>
             <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
             <sys_policy/>
             <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
             <sys_update_name>sys_documentation_x_538229_realestat_property_uom_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 23:55:57</sys_updated_on>
+            <sys_updated_on>2021-02-07 14:15:31</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

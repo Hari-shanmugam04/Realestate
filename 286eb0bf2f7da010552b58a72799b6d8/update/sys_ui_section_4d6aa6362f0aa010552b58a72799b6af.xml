@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-04 14:58:00</sys_created_on>
-            <sys_id>1e4ba6762f0aa010552b58a72799b6b3</sys_id>
+            <sys_created_on>2021-02-07 13:16:23</sys_created_on>
+            <sys_id>13c031bf2f826010552b58a72799b60d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_538229_realestat_property" sys_domain="global" view="Default view">4d6aa6362f0aa010552b58a72799b6af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-04 14:58:00</sys_updated_on>
+            <sys_updated_on>2021-02-07 13:16:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>property_type</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-04 14:58:00</sys_created_on>
-            <sys_id>9e4ba6762f0aa010552b58a72799b6b3</sys_id>
+            <sys_created_on>2021-02-07 13:16:23</sys_created_on>
+            <sys_id>dbc031bf2f826010552b58a72799b60d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_538229_realestat_property" sys_domain="global" view="Default view">4d6aa6362f0aa010552b58a72799b6af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-04 14:58:00</sys_updated_on>
+            <sys_updated_on>2021-02-07 13:16:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>area</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-04 14:58:00</sys_created_on>
-            <sys_id>124ba6762f0aa010552b58a72799b6b4</sys_id>
+            <sys_created_on>2021-02-07 13:16:23</sys_created_on>
+            <sys_id>5fc031bf2f826010552b58a72799b60d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_538229_realestat_property" sys_domain="global" view="Default view">4d6aa6362f0aa010552b58a72799b6af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-04 14:58:00</sys_updated_on>
+            <sys_updated_on>2021-02-07 13:16:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>uom</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-04 14:58:00</sys_created_on>
-            <sys_id>924ba6762f0aa010552b58a72799b6b4</sys_id>
+            <sys_created_on>2021-02-07 13:16:23</sys_created_on>
+            <sys_id>dfc031bf2f826010552b58a72799b60d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_538229_realestat_property" sys_domain="global" view="Default view">4d6aa6362f0aa010552b58a72799b6af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-04 14:58:00</sys_updated_on>
+            <sys_updated_on>2021-02-07 13:16:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-04 14:58:00</sys_created_on>
-            <sys_id>164ba6762f0aa010552b58a72799b6b4</sys_id>
+            <sys_created_on>2021-02-07 13:16:23</sys_created_on>
+            <sys_id>53c031bf2f826010552b58a72799b60e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_538229_realestat_property" sys_domain="global" view="Default view">4d6aa6362f0aa010552b58a72799b6af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-04 14:58:00</sys_updated_on>
+            <sys_updated_on>2021-02-07 13:16:23</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>status</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-04 14:58:00</sys_created_on>
-            <sys_id>964ba6762f0aa010552b58a72799b6b4</sys_id>
+            <sys_created_on>2021-02-07 13:16:23</sys_created_on>
+            <sys_id>d3c031bf2f826010552b58a72799b60e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_538229_realestat_property" sys_domain="global" view="Default view">4d6aa6362f0aa010552b58a72799b6af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-04 14:58:00</sys_updated_on>
+            <sys_updated_on>2021-02-07 13:16:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>property_sub_type</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-04 14:58:00</sys_created_on>
-            <sys_id>1a4ba6762f0aa010552b58a72799b6b4</sys_id>
+            <sys_created_on>2021-02-07 13:16:23</sys_created_on>
+            <sys_id>57c031bf2f826010552b58a72799b60e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_538229_realestat_property" sys_domain="global" view="Default view">4d6aa6362f0aa010552b58a72799b6af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-04 14:58:00</sys_updated_on>
+            <sys_updated_on>2021-02-07 13:16:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>lease_id</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-04 14:58:00</sys_created_on>
-            <sys_id>9a4ba6762f0aa010552b58a72799b6b4</sys_id>
+            <sys_created_on>2021-02-07 13:16:23</sys_created_on>
+            <sys_id>d7c031bf2f826010552b58a72799b60e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_538229_realestat_property" sys_domain="global" view="Default view">4d6aa6362f0aa010552b58a72799b6af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-04 14:58:00</sys_updated_on>
+            <sys_updated_on>2021-02-07 13:16:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,41 +116,41 @@
             <element>unit_price</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-04 14:58:00</sys_created_on>
-            <sys_id>1e4ba6762f0aa010552b58a72799b6b4</sys_id>
+            <sys_created_on>2021-02-07 13:16:23</sys_created_on>
+            <sys_id>5bc031bf2f826010552b58a72799b60e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_538229_realestat_property" sys_domain="global" view="Default view">4d6aa6362f0aa010552b58a72799b6af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-04 14:58:00</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>price</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-04 14:58:00</sys_created_on>
-            <sys_id>9e4ba6762f0aa010552b58a72799b6b4</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_538229_realestat_property" sys_domain="global" view="Default view">4d6aa6362f0aa010552b58a72799b6af</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-04 14:58:00</sys_updated_on>
+            <sys_updated_on>2021-02-07 13:16:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>currency</element>
-            <position>10</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-04 14:58:00</sys_created_on>
-            <sys_id>124ba6762f0aa010552b58a72799b6b5</sys_id>
+            <sys_created_on>2021-02-07 13:16:23</sys_created_on>
+            <sys_id>dbc031bf2f826010552b58a72799b60e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_538229_realestat_property" sys_domain="global" view="Default view">4d6aa6362f0aa010552b58a72799b6af</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-04 14:58:00</sys_updated_on>
+            <sys_updated_on>2021-02-07 13:16:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>price</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-07 13:16:23</sys_created_on>
+            <sys_id>5fc031bf2f826010552b58a72799b60e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_538229_realestat_property" sys_domain="global" view="Default view">4d6aa6362f0aa010552b58a72799b6af</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-07 13:16:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -17,7 +17,7 @@
             <sys_updated_on>2021-01-25 23:52:20</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>land</dependent_value>
             <element>property_sub_type</element>
             <hint/>
             <inactive>false</inactive>
@@ -30,13 +30,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>809509772fbda010552b58a72799b624</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 23:52:20</sys_updated_on>
+            <sys_updated_on>2021-02-07 13:12:12</sys_updated_on>
             <value>ploi</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>land</dependent_value>
             <element>property_sub_type</element>
             <hint/>
             <inactive>false</inactive>
@@ -49,13 +49,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>38d549772fbda010552b58a72799b6ba</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 23:52:55</sys_updated_on>
+            <sys_updated_on>2021-02-07 13:11:48</sys_updated_on>
             <value>agricultural</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>building</dependent_value>
             <element>property_sub_type</element>
             <hint/>
             <inactive>false</inactive>
@@ -68,13 +68,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>dcf50d772fbda010552b58a72799b6f8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 23:53:26</sys_updated_on>
+            <sys_updated_on>2021-02-07 13:11:53</sys_updated_on>
             <value>commercial</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>building</dependent_value>
             <element>property_sub_type</element>
             <hint/>
             <inactive>false</inactive>
@@ -87,13 +87,13 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>911689372fbda010552b58a72799b648</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 23:54:02</sys_updated_on>
+            <sys_updated_on>2021-02-07 13:11:58</sys_updated_on>
             <value>residential flat</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
+            <dependent_value>building</dependent_value>
             <element>property_sub_type</element>
             <hint/>
             <inactive>false</inactive>
@@ -106,9 +106,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b726c9f32fbda010552b58a72799b619</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 23:54:30</sys_updated_on>
+            <sys_updated_on>2021-02-07 13:12:05</sys_updated_on>
             <value>villa</value>
         </sys_choice>
     </sys_choice>

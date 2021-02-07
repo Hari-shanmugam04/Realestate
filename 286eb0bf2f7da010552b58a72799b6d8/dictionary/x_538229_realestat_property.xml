@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Property" max_length="40" name="x_538229_realestat_property" sizeclass="5" type="collection">
-        <element label="Area" max_length="40" name="area" type="integer"/>
+    <element label="Property" max_length="40" name="x_538229_realestat_property" sizeclass="13" type="collection">
+        <element attributes="format=none" label="Area" max_length="40" name="area" type="integer"/>
         <element choice="1" label="Availability Type" max_length="40" name="availability_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Sale" sequence="0" value="sale"/>
@@ -11,7 +11,7 @@
         <element label="City" max_length="50" name="city" type="string"/>
         <element label="Consumer" max_length="32" name="consumer" reference="csm_consumer" type="reference"/>
         <element label="Country" max_length="50" name="country" type="string"/>
-        <element default="AED" label="Currency" max_length="10" name="currency" type="string"/>
+        <element default="AED" label="Currency" max_length="10" name="currency" read_only="true" type="string"/>
         <element label="Landmark" max_length="80" name="landmark" type="string"/>
         <element label="Lease Id" max_length="32" name="lease_id" reference="x_538229_realestat_lease" type="reference"/>
         <element choice="1" label="Lease Type" max_length="40" name="lease_type" type="choice">
@@ -22,14 +22,14 @@
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Property Id" max_length="40" name="number" type="string"/>
         <element label="POBox" max_length="40" name="pobox" type="integer"/>
-        <element default="Area*Unit_price" label="Price" max_length="20" name="price" type="price"/>
-        <element choice="1" label="Property Sub Type" max_length="40" name="property_sub_type" type="choice">
+        <element label="Price" max_length="40" name="price" type="integer"/>
+        <element choice="1" dependent="property_type" dependent_on_field="property_type" label="Property Sub Type" max_length="40" name="property_sub_type" type="choice" use_dependent_field="true">
             <choice>
-                <element inactive_on_update="false" label="Plot" sequence="0" value="ploi"/>
-                <element inactive_on_update="false" label="Agricultural" sequence="1" value="agricultural"/>
-                <element inactive_on_update="false" label="Commercial" sequence="2" value="commercial"/>
-                <element inactive_on_update="false" label="Residential flat" sequence="3" value="residential flat"/>
-                <element inactive_on_update="false" label="Villa" sequence="4" value="villa"/>
+                <element dependent_value="land" inactive_on_update="false" label="Plot" sequence="0" value="ploi"/>
+                <element dependent_value="land" inactive_on_update="false" label="Agricultural" sequence="1" value="agricultural"/>
+                <element dependent_value="building" inactive_on_update="false" label="Commercial" sequence="2" value="commercial"/>
+                <element dependent_value="building" inactive_on_update="false" label="Residential flat" sequence="3" value="residential flat"/>
+                <element dependent_value="building" inactive_on_update="false" label="Villa" sequence="4" value="villa"/>
             </choice>
         </element>
         <element choice="1" label="Property Type" max_length="40" name="property_type" type="choice">
@@ -45,8 +45,13 @@
             </choice>
         </element>
         <element label="Street" max_length="100" name="street" type="string"/>
-        <element label="Unit Price" max_length="40" name="unit_price" type="integer"/>
-        <element default="Sqft" label="UOM" max_length="40" name="uom" type="integer"/>
+        <element attributes="format=none" label="Unit Price" max_length="40" name="unit_price" type="integer"/>
+        <element choice="1" label="Unit of measurement" max_length="40" name="uom" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Sqft" sequence="0" value="sqft"/>
+                <element inactive_on_update="false" label="Sqmt" sequence="1" value="sqmt"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="consumer"/>
         </index>

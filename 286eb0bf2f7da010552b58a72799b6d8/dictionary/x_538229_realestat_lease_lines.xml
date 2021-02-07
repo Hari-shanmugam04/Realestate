@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Lease_lines" max_length="40" name="x_538229_realestat_lease_lines" sizeclass="4" type="collection">
-        <element label="Discount" max_length="40" name="discount" type="integer"/>
-        <element label="End_date" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Area" max_length="40" name="area" type="integer"/>
+        <element choice="1" label="Discount type" max_length="40" name="discount_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Amount" sequence="0" value="amount"/>
+                <element inactive_on_update="false" label="Percent" sequence="1" value="percent"/>
+            </choice>
+        </element>
+        <element label="Discount value" max_length="40" name="discount_value" type="integer"/>
+        <element label="End date" max_length="40" name="end_date" type="glide_date"/>
         <element label="Lease_id" max_length="32" name="lease_id" read_only="true" reference="x_538229_realestat_lease" type="reference"/>
-        <element label="Net_price" max_length="40" name="net_price" type="integer"/>
+        <element label="Net price" max_length="40" name="net_price" type="integer"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Price" max_length="20" name="price" type="price"/>
-        <element label="Property_id" max_length="32" name="property_id" reference="x_538229_realestat_property" type="reference"/>
-        <element label="Start_date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Price" max_length="40" name="price" type="integer"/>
+        <element label="Property id" max_length="32" name="property_id" reference="x_538229_realestat_property" reference_qual="status=available^EQ" reference_qual_condition="status=available^EQ" type="reference"/>
+        <element label="Start date" max_length="40" name="start_date" type="glide_date"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="1" value="cancelled"/>
+                <element inactive_on_update="false" label="Expired" sequence="2" value="expired"/>
+            </choice>
+        </element>
+        <element label="Unit price" max_length="40" name="unit_price" type="integer"/>
+        <element label="UOM" max_length="40" name="uom" type="integer"/>
         <index name="index">
             <element name="lease_id"/>
         </index>

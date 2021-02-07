@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="discount" label="Discount" language="en" table="x_538229_realestat_lease_lines">
+    <sys_documentation element="discount_value" label="Discount value" language="en" table="x_538229_realestat_lease_lines">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>discount</element>
+            <element>discount_value</element>
             <help/>
             <hint/>
-            <label>Discount</label>
+            <label>Discount value</label>
             <language>en</language>
             <name>x_538229_realestat_lease_lines</name>
-            <plural>Discounts</plural>
+            <plural>Discount values</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-01 08:54:32</sys_created_on>
-            <sys_id>f45bf1bd2f066010552b58a72799b634</sys_id>
+            <sys_created_on>2021-02-05 03:28:57</sys_created_on>
+            <sys_id>6e27dd4b2f02e010552b58a72799b681</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Discount</sys_name>
+            <sys_name>Discount value</sys_name>
             <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
             <sys_policy/>
             <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
-            <sys_update_name>sys_documentation_x_538229_realestat_lease_lines_discount_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_538229_realestat_lease_lines_discount_value_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-01 08:54:32</sys_updated_on>
+            <sys_updated_on>2021-02-05 03:28:57</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

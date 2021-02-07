@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>uom</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Multiple of area and unitprice</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   } 
+ 
+	var are = g_form.getValue('area');
+	var up = g_form.getValue('unit_price');
+	var total = parseInt(are) + parseInt(up);
+	g_form.setValue('uom', total);  
+
+   //Type appropriate comment here, and begin script below
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-05 05:11:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>018de50f2f42e010552b58a72799b6ba</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Multiple of area and unitprice</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+        <sys_update_name>sys_script_client_018de50f2f42e010552b58a72799b6ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-05 05:15:34</sys_updated_on>
+        <table>x_538229_realestat_property</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</application>
+        <file_path/>
+        <instance_id>d3aedbeadbd15f844c1ff70fbf9619b6</instance_id>
+        <instance_name>dev55569</instance_name>
+        <name>sys_script_client_018de50f2f42e010552b58a72799b6ba</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;uom&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Multiple of area and unitprice&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   } 
+ 
+	var are = g_form.getValue('area');
+	var up = g_form.getValue('unit_price');
+	var total = parseInt(are) + parseInt(up);
+	g_form.setValue('uom', total);  
+
+   //Type appropriate comment here, and begin script below
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-05 05:11:52&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;018de50f2f42e010552b58a72799b6ba&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name&gt;Multiple of area and unitprice&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="REALESTATE" source="x_538229_realestat"&gt;286eb0bf2f7da010552b58a72799b6d8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="REALESTATE"&gt;286eb0bf2f7da010552b58a72799b6d8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_018de50f2f42e010552b58a72799b6ba&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-05 05:15:34&lt;/sys_updated_on&gt;&lt;table&gt;x_538229_realestat_property&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1288131083</payload_hash>
+        <record_name>Multiple of area and unitprice</record_name>
+        <reverted_from/>
+        <source>e94491872f02e010552b58a72799b642</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-05 05:15:34</sys_created_on>
+        <sys_id>249f218f2f42e010552b58a72799b6ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177709df03b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-05 05:15:34</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>2c9f218fbc42e010e0c26297ced71feb</update_guid>
+        <update_guid_history>2c9f218fbc42e010e0c26297ced71feb:-1288131083,ff3f2d4f5d42e0102d7267f97131ff44:262838166,21eea50f9842e010b237de653328ff72:-977999914,b6ce294f9642e010e3116072538e4026:-320224508,4abea54f3542e0101b107f335fc4a1cc:210766718</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-05 05:17:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>20888dde66f14d9e860d7dc1687ce7e4</sys_id>
+        <sys_metadata>018de50f2f42e010552b58a72799b6ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Multiple of area and unitprice</sys_name>
+        <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+        <sys_parent display_value="Property">58ce70ff2f7da010552b58a72799b6fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+        <sys_scope_delete display_value="">3660a1e35308420686a0d62ef986f504</sys_scope_delete>
+        <sys_update_name>sys_script_client_018de50f2f42e010552b58a72799b6ba</sys_update_name>
+        <sys_update_version display_value="sys_script_client_018de50f2f42e010552b58a72799b6ba">249f218f2f42e010552b58a72799b6ec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-05 05:17:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
