@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="elevator" table="x_538229_realestat_property" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>elevator</element>
+            <name>x_538229_realestat_property</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-08 07:49:56</sys_created_on>
+            <sys_id>b2af21882fde6010552b58a72799b681</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>elevator</sys_name>
+            <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+            <sys_update_name>sys_choice_x_538229_realestat_property_elevator</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-08 07:49:56</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>elevator</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>x_538229_realestat_property</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-08 07:49:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f39fad482fde6010552b58a72799b627</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-08 07:49:56</sys_updated_on>
+            <value>yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>elevator</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>x_538229_realestat_property</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-08 07:50:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4bbfad482fde6010552b58a72799b673</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-08 07:50:13</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

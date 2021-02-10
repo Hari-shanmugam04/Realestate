@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>discount_value</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>DiscountValdisPri</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+
+   if (isLoading || newValue == '') {
+
+      return;
+
+   }
+
+    var A = g_form.getValue('price'); 
+
+
+              var B = g_form.getValue('discount_value');
+
+    var A1 = parseInt(A);
+
+    var B1 = parseInt(B);
+
+              var add =(A1/100)*B1;
+
+               var fprice = A1-add;
+
+              g_form.setValue('net_price', fprice);
+var num = fprice ;
+
+var currency = num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,') ;
+
+g_form.setValue('net_price', currency);
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-09 04:24:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ad946d82f5ea010552b58a72799b6e0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>DiscountValdisPri</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+        <sys_update_name>sys_script_client_5ad946d82f5ea010552b58a72799b6e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-09 05:38:40</sys_updated_on>
+        <table>x_538229_realestat_lease_lines</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

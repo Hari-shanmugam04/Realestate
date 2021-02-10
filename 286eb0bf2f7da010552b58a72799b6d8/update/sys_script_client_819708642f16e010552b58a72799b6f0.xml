@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>property_sub_type</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Hide or show apartment sec</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+
+ var propertySubtype = g_form.getValue('property_sub_type');
+
+   if (isLoading || propertySubtype != 'apartment') 
+{
+   g_form.setSectionDisplay('apartment',false);
+   }
+if(propertySubtype == 'apartment')
+{
+g_form.setSectionDisplay('apartment',true);
+}
+   else{
+g_form.setSectionDisplay('apartment',false);
+}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-09 13:33:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>819708642f16e010552b58a72799b6f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide or show apartment sec</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+        <sys_update_name>sys_script_client_819708642f16e010552b58a72799b6f0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-09 13:33:50</sys_updated_on>
+        <table>x_538229_realestat_property</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

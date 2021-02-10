@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="furnished" table="x_538229_realestat_property" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>furnished</element>
+            <name>x_538229_realestat_property</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-08 07:32:35</sys_created_on>
+            <sys_id>e0bb69442fde6010552b58a72799b6ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>furnished</sys_name>
+            <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+            <sys_update_name>sys_choice_x_538229_realestat_property_furnished</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-08 07:32:35</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>furnished</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Semi-Furnished</label>
+            <language>en</language>
+            <name>x_538229_realestat_property</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-08 07:32:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>509be1842fde6010552b58a72799b606</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-08 08:14:39</sys_updated_on>
+            <value>semi-furnished</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>furnished</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fully-Furnished</label>
+            <language>en</language>
+            <name>x_538229_realestat_property</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-08 07:33:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>abcb61842fde6010552b58a72799b6cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-08 07:33:03</sys_updated_on>
+            <value>fully-furnished</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>furnished</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unfurnished</label>
+            <language>en</language>
+            <name>x_538229_realestat_property</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-08 07:33:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ddeba9442fde6010552b58a72799b6a7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-08 08:15:26</sys_updated_on>
+            <value>unfurnished</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

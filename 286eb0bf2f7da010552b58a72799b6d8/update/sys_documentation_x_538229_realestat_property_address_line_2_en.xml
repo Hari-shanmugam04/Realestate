@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="address_line_2" label="Address line 2" language="en" table="x_538229_realestat_property">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>address_line_2</element>
+            <help/>
+            <hint/>
+            <label>Address line 2</label>
+            <language>en</language>
+            <name>x_538229_realestat_property</name>
+            <plural>Address line 2s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-09 12:51:08</sys_created_on>
+            <sys_id>e83e7b982fd2e010552b58a72799b617</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Address line 2</sys_name>
+            <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+            <sys_update_name>sys_documentation_x_538229_realestat_property_address_line_2_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-09 12:51:08</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

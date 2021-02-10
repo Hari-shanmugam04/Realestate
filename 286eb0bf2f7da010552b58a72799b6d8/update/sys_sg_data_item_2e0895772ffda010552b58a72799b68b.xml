@@ -5,7 +5,7 @@
         <group_by/>
         <instance_relative_url_qc/>
         <name>Residential</name>
-        <query_condition table="x_538229_realestat_property">property_sub_type=residential flat^ORDERBYnumber<item display_value="Residential flat" endquery="false" field="property_sub_type" goto="false" newquery="false" operator="=" or="false" value="residential flat"/>
+        <query_condition table="x_538229_realestat_property">property_sub_type=residential flat^ORDERBYnumber<item display_value="residential flat" endquery="false" field="property_sub_type" goto="false" newquery="false" operator="=" or="false" value="residential flat"/>
             <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/>
         </query_condition>
         <query_condition_script/>

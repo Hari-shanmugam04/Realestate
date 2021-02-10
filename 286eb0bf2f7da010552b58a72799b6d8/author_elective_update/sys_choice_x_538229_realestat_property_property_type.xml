@@ -21,38 +21,38 @@
             <element>property_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Land</label>
+            <label>Commercial</label>
             <language>en</language>
             <name>x_538229_realestat_property</name>
             <sequence>0</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 23:46:44</sys_created_on>
+            <sys_created_on>2021-02-09 12:18:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>5a54c5372fbda010552b58a72799b6ee</sys_id>
+            <sys_id>bfc6f3142fd2e010552b58a72799b6e0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 23:46:44</sys_updated_on>
-            <value>land</value>
+            <sys_updated_on>2021-02-09 12:18:51</sys_updated_on>
+            <value>commercial</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
             <element>property_type</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Building</label>
+            <label>Residential</label>
             <language>en</language>
             <name>x_538229_realestat_property</name>
             <sequence>1</sequence>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 23:47:12</sys_created_on>
+            <sys_created_on>2021-02-09 12:18:51</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>098445f32fbda010552b58a72799b683</sys_id>
+            <sys_id>f7c6f3142fd2e010552b58a72799b6e2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 23:47:12</sys_updated_on>
-            <value>building</value>
+            <sys_updated_on>2021-02-09 12:18:51</sys_updated_on>
+            <value>Residential</value>
         </sys_choice>
     </sys_choice>
 </record_update>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Lease" max_length="40" name="x_538229_realestat_lease" sizeclass="6" type="collection">
-        <element label="Customer Id" max_length="32" name="customer_id" reference="csm_consumer" type="reference"/>
-        <element label="End_date" max_length="40" name="end_date" type="glide_date"/>
+    <element label="Lease" max_length="40" name="x_538229_realestat_lease" sizeclass="7" type="collection">
+        <element label="Consumer" max_length="32" name="consumer" reference="csm_consumer" type="reference"/>
+        <element label="End date" max_length="40" name="end_date" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Lease Id" max_length="40" name="number" type="string"/>
-        <element label="Start_date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Property id" max_length="32" name="property_id" reference="x_538229_realestat_property" reference_qual="status=available^EQ" reference_qual_condition="status=available^EQ" type="reference"/>
+        <element label="Start date" max_length="40" name="start_date" type="glide_date"/>
         <element choice="1" label="Status" max_length="40" name="status" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Active" sequence="0" value="active"/>
@@ -13,7 +14,10 @@
         </element>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();edge_encryption_enabled=true" label="Number" max_length="40" name="u_integer_1" type="integer"/>
         <index name="index">
-            <element name="customer_id"/>
+            <element name="consumer"/>
+        </index>
+        <index name="index2">
+            <element name="property_id"/>
         </index>
     </element>
 </database>

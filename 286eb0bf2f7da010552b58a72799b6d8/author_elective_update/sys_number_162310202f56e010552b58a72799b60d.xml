@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="DELETE">
+        <category display_value="" name="x_538229_realestat_case">x_538229_realestat_case</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>CAS</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-09 14:22:43</sys_created_on>
+        <sys_id>162310202f56e010552b58a72799b60d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CAS</sys_name>
+        <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+        <sys_update_name>sys_number_162310202f56e010552b58a72799b60d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-09 14:22:43</sys_updated_on>
+    </sys_number>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</application>
+        <file_path/>
+        <instance_id>d3aedbeadbd15f844c1ff70fbf9619b6</instance_id>
+        <instance_name>dev55569</instance_name>
+        <name>sys_number_162310202f56e010552b58a72799b60d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_538229_realestat_case">x_538229_realestat_case</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>CAS</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-02-09 14:22:43</sys_created_on><sys_id>162310202f56e010552b58a72799b60d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CAS</sys_name><sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package><sys_policy/><sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope><sys_update_name>sys_number_162310202f56e010552b58a72799b60d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-02-09 14:22:43</sys_updated_on></sys_number></record_update>]]></payload>
+        <payload_hash>-530807288</payload_hash>
+        <record_name>CAS</record_name>
+        <reverted_from/>
+        <source>e94491872f02e010552b58a72799b642</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-09 14:22:44</sys_created_on>
+        <sys_id>ae2310202f56e010552b58a72799b614</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177872c4fc90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-09 14:22:44</sys_updated_on>
+        <type>Number</type>
+        <update_guid>d6231020fa56e0106dd40eb2181f7014</update_guid>
+        <update_guid_history>d6231020fa56e0106dd40eb2181f7014:-530807288</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-09 14:33:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_number">sys_number</sys_db_object>
+        <sys_id>3e4f9017657d4c748076312bd8f81a01</sys_id>
+        <sys_metadata>162310202f56e010552b58a72799b60d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CAS</sys_name>
+        <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+        <sys_parent display_value="">a47294ac2f16e010552b58a72799b6b5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+        <sys_scope_delete display_value="">3660a1e35308420686a0d62ef986f504</sys_scope_delete>
+        <sys_update_name>sys_number_162310202f56e010552b58a72799b60d</sys_update_name>
+        <sys_update_version display_value="sys_number_162310202f56e010552b58a72799b60d">ae2310202f56e010552b58a72799b614</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-09 14:33:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

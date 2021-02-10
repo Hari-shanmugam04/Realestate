@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="facing" table="x_538229_realestat_property" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>facing</element>
+            <name>x_538229_realestat_property</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-08 07:28:00</sys_created_on>
+            <sys_id>6daae1042fde6010552b58a72799b69f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>facing</sys_name>
+            <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+            <sys_update_name>sys_choice_x_538229_realestat_property_facing</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-08 07:28:00</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>facing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>North</label>
+            <language>en</language>
+            <name>x_538229_realestat_property</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-08 07:28:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>029ae1442fde6010552b58a72799b6a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-08 07:28:00</sys_updated_on>
+            <value>north</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>facing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>South</label>
+            <language>en</language>
+            <name>x_538229_realestat_property</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-08 07:28:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25ba65042fde6010552b58a72799b626</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-08 07:28:16</sys_updated_on>
+            <value>south</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>facing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>East</label>
+            <language>en</language>
+            <name>x_538229_realestat_property</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-08 07:28:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5ca65042fde6010552b58a72799b631</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-08 07:28:32</sys_updated_on>
+            <value>east</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>facing</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>West</label>
+            <language>en</language>
+            <name>x_538229_realestat_property</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-08 07:28:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9dae1442fde6010552b58a72799b6ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-08 07:28:47</sys_updated_on>
+            <value>west</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

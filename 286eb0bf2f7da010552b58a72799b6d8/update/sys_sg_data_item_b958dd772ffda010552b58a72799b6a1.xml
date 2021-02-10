@@ -5,7 +5,7 @@
         <group_by/>
         <instance_relative_url_qc/>
         <name>Commercial</name>
-        <query_condition table="x_538229_realestat_property">property_sub_type=commercial^ORDERBYnumber<item display_value="Commercial" endquery="false" field="property_sub_type" goto="false" newquery="false" operator="=" or="false" value="commercial"/>
+        <query_condition table="x_538229_realestat_property">property_sub_type=commercial^ORDERBYnumber<item display_value="commercial" endquery="false" field="property_sub_type" goto="false" newquery="false" operator="=" or="false" value="commercial"/>
             <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/>
         </query_condition>
         <query_condition_script/>
