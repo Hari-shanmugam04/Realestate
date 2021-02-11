@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Property" max_length="40" name="x_538229_realestat_property" sizeclass="18" type="collection">
+    <element label="Property" max_length="40" name="x_538229_realestat_property" sizeclass="2" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Address line 1" max_length="40" name="address_line_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Address line 2" max_length="40" name="address_line_2" type="string"/>
         <element attributes="format=none" label="Area" max_length="40" name="area" type="integer"/>

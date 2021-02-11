@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="x_538229_realestat_property_id" table="sn_customerservice_case">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Leaseline id</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>x_538229_realestat_property_id</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>sn_customerservice_case</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_538229_realestat_lease_lines">x_538229_realestat_lease_lines</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual>javascript:"lease_id=" + current.x_538229_realestat_lease_id</reference_qual>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-08 13:24:37</sys_created_on>
+        <sys_id>961cbe0c2fd2a010552b58a72799b685</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Leaseline id</sys_name>
+        <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+        <sys_update_name>sys_dictionary_sn_customerservice_case_x_538229_realestat_property_id</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 03:43:50</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</application>
+        <file_path/>
+        <instance_id>d3aedbeadbd15f844c1ff70fbf9619b6</instance_id>
+        <instance_name>dev55569</instance_name>
+        <name>sys_dictionary_sn_customerservice_case_x_538229_realestat_property_id</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="x_538229_realestat_property_id" table="sn_customerservice_case"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Leaseline id&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;x_538229_realestat_property_id&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Reference"&gt;reference&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;32&lt;/max_length&gt;&lt;name&gt;sn_customerservice_case&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="x_538229_realestat_lease_lines"&gt;x_538229_realestat_lease_lines&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual&gt;javascript:"lease_id=" + current.x_538229_realestat_lease_id&lt;/reference_qual&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-08 13:24:37&lt;/sys_created_on&gt;&lt;sys_id&gt;961cbe0c2fd2a010552b58a72799b685&lt;/sys_id&gt;&lt;sys_mod_count&gt;20&lt;/sys_mod_count&gt;&lt;sys_name&gt;Leaseline id&lt;/sys_name&gt;&lt;sys_package display_value="REALESTATE" source="x_538229_realestat"&gt;286eb0bf2f7da010552b58a72799b6d8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="REALESTATE"&gt;286eb0bf2f7da010552b58a72799b6d8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_sn_customerservice_case_x_538229_realestat_property_id&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-11 03:43:50&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;advanced&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>103035650</payload_hash>
+        <record_name>Case.Leaseline id</record_name>
+        <reverted_from/>
+        <source>e94491872f02e010552b58a72799b642</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 03:43:50</sys_created_on>
+        <sys_id>431418092f9e2410552b58a72799b6ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1778f301a7d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 03:43:50</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>4b141809759e2410dc21f8434bb207b9</update_guid>
+        <update_guid_history>4b141809759e2410dc21f8434bb207b9:103035650,8c6c8481219e24106b4963df786a4e56:-1050991584,2eabc841be9e24104322ed2f9160c6f8:-1260847317,0bea40417f9e2410d862f1a827d2d84a:1496954395,85aa0c015e9e24109d95c04f3dfaff74:-677047405,3e8a8801e49e2410b686efee10ccc820:695933463,b63a04018f9e241082b45c5201c1baf8:2077041576,57f880cd7c5e241082dc7b28169650c3:-1050991584,c608048d8d5e2410fd580697f23b243d:233306352,8cb78c4d295e24100678aca31161d0b7:-1050991584,6c67484d435e2410e707693555368a73:-1260847317,69b68c0d485e2410d45b33091edae1f9:8491358,1e56080dc35e24109c15e60ddbb5e0ce:1496954395,e8aa83884016a01058f8f0ee9470175b:1502924777,dd5a0f487216a0103d7fe5e33d219320:1876971129,18e9c3488316a0104ed8d67479c08c5b:666304238,8d3987089816a010504e9cac1c4ec248:-1833701975,5dd8cfc48116a010fa93fe9231b82c96:8015177,47e743c44e16a010030c250f8732e7dc:1502924777,f927c3842416a010d2c501aa06dddca7:8015177,b94c324c58d2a0106329edd241af2ff2:-656082864</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-11 04:01:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>a12cdbe72b464e9cb377e0c6d18d58b1</sys_id>
+        <sys_metadata>961cbe0c2fd2a010552b58a72799b685</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Leaseline id</sys_name>
+        <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+        <sys_parent display_value="Sn Customerservice Case">738635e92f312010552b58a72799b6a2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+        <sys_scope_delete display_value="">3660a1e35308420686a0d62ef986f504</sys_scope_delete>
+        <sys_update_name>sys_dictionary_sn_customerservice_case_x_538229_realestat_property_id</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_sn_customerservice_case_x_538229_realestat_property_id">431418092f9e2410552b58a72799b6ba</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-11 04:01:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

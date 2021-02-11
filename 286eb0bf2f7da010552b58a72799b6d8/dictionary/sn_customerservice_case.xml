@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="email_client=true" audit="true" extends="task" label="Case" max_length="40" name="sn_customerservice_case" sizeclass="81" text_index="true" type="collection">
         <element label="Lease id" max_length="32" name="x_538229_realestat_lease_id" reference="x_538229_realestat_lease" reference_qual="javascript:&quot;consumer=&quot; + current.consumer" type="reference" use_reference_qualifier="advanced"/>
-        <element label="Property id" max_length="32" name="x_538229_realestat_property_id" reference="x_538229_realestat_property" reference_qual="javascript:&quot;lease_id=&quot; + current.lease_id" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Property id" max_length="32" name="x_538229_realestat_propert_id" reference="x_538229_realestat_lease_lines" reference_key="Property_id" reference_qual="javascript:&quot;lease_id=&quot; + current.x_538229_realestat_lease_id" type="reference" use_reference_qualifier="advanced"/>
     </element>
 </database>
