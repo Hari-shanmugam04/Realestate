@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>false</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -29,14 +29,15 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-	 
-	var rightnow = new GlideDateTime();
 	
+	var rightnow = new GlideDateTime();
+
 	var whenNeeded = new GlideDateTime(current.end_date);
 	
 	
+	
 	if(whenNeeded.before(rightnow)){
-		gs.addErrorMessage("When End date cannot be in the past.");
+		gs.addErrorMessage("End date in invalid.");
 		current.setAbortAction(true);
 	}
 
@@ -47,7 +48,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5fa392812f566410552b58a72799b62b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Leaseenddatevalidation</sys_name>
         <sys_overrides/>
         <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
@@ -55,7 +56,7 @@
         <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
         <sys_update_name>sys_script_5fa392812f566410552b58a72799b62b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-11 13:07:10</sys_updated_on>
+        <sys_updated_on>2021-02-17 06:48:17</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

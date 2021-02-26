@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Realestat M2m Lease Lines Leases" max_length="40" name="x_538229_realestat_m2m_lease_lines_leases" sizeclass="0" type="collection">
+        <element attributes="encode_utf8=false" label="Lease" max_length="32" name="lease_id" reference="x_538229_realestat_lease" type="reference"/>
+        <element attributes="encode_utf8=false" label="Lease_lines" max_length="32" name="property_id" reference="x_538229_realestat_lease_lines" type="reference"/>
+        <index name="index">
+            <element name="lease_id"/>
+        </index>
+        <index name="index2">
+            <element name="property_id"/>
+        </index>
+    </element>
+</database>

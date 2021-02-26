@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_538229_realestat_property</basic_apply_to>
+        <basic_query_from>sn_customerservice_case</basic_query_from>
+        <insert_callback/>
+        <name>Cases</name>
+        <query_from/>
+        <query_with><![CDATA[(function refineQuery(current, parent) {
+
+
+
+  var sf_account_id = new String(parent.number);
+
+  if (sf_account_id.length == 0)
+    sf_account_id = "undefined";
+
+  current.addQuery("x_538229_realestat_propert_id", sf_account_id);
+
+
+//current.addQuery('x_538229_realestat_propert_id',parent.number);
+
+})(current, parent);
+
+]]></query_with>
+        <reference_field>account</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-16 03:35:17</sys_created_on>
+        <sys_id>2db10ee22f12a810552b58a72799b64b</sys_id>
+        <sys_mod_count>45</sys_mod_count>
+        <sys_name>Cases</sys_name>
+        <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+        <sys_update_name>sys_relationship_2db10ee22f12a810552b58a72799b64b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 04:31:10</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=2db10ee22f12a810552b58a72799b64b"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</application>
+        <file_path/>
+        <instance_id>d3aedbeadbd15f844c1ff70fbf9619b6</instance_id>
+        <instance_name>dev55569</instance_name>
+        <name>sys_relationship_2db10ee22f12a810552b58a72799b64b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;x_538229_realestat_property&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;sn_customerservice_case&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Cases&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+
+
+
+  var sf_account_id = new String(parent.number);
+
+  if (sf_account_id.length == 0)
+    sf_account_id = "undefined";
+
+  current.addQuery("x_538229_realestat_propert_id", sf_account_id);
+
+
+//current.addQuery('x_538229_realestat_propert_id',parent.number);
+
+})(current, parent);
+
+]]&gt;&lt;/query_with&gt;&lt;reference_field&gt;account&lt;/reference_field&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-16 03:35:17&lt;/sys_created_on&gt;&lt;sys_id&gt;2db10ee22f12a810552b58a72799b64b&lt;/sys_id&gt;&lt;sys_mod_count&gt;45&lt;/sys_mod_count&gt;&lt;sys_name&gt;Cases&lt;/sys_name&gt;&lt;sys_package display_value="REALESTATE" source="x_538229_realestat"&gt;286eb0bf2f7da010552b58a72799b6d8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="REALESTATE"&gt;286eb0bf2f7da010552b58a72799b6d8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_2db10ee22f12a810552b58a72799b64b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-17 04:31:10&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2db10ee22f12a810552b58a72799b64b"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-673734417</payload_hash>
+        <record_name>Cases</record_name>
+        <reverted_from/>
+        <source>c55353dc2f12e010552b58a72799b6b3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 04:31:10</sys_created_on>
+        <sys_id>477817be2f52e810552b58a72799b6d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177ae4198b00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 04:31:10</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>4f7817be2c52e810c08e783b39aabcd4</update_guid>
+        <update_guid_history>4f7817be2c52e810c08e783b39aabcd4:-673734417,78a51ffa0c52e810ce3bede220c1651e:-1371165495,af5557fa8752e81083736b4a61004ce9:-1675238479,94f413fa4852e810c0b0a51272392390:-1986484953,02a4d7b64152e810af3e88fe34afb049:1553217087,2977ecf2135aa8104a0a5a9bf373636a:-493699580,4a072036465aa81048f2bba1c51e64f8:765942484,b1f66036bf5aa810661099e4f3d83504:1653681107,579624f20b5aa8103c7292d705abf97c:504668835,59b36c32365aa81014ea681ce695f397:1722269940,362f983eb41aa8104b74f5e277294c08:-1529070277,dc39d43ab41aa810afea223b61cbb022:-1302799235,04c8d0ba00d6a810a19ee1d16df4254a:783978069,222898f6751aa81059f835cd267aea1c:1529624625,2eebf7ea6496a8108648967862fd7bc0:-1285080995,343ee3626996a81020b579195163e4ec:1815474303,6b5de3626296a810a9cc6fba18672875:-1091682730,f50d6f222a96a8103ac6a3d4deb9bfeb:1099965754,04cc23eefb56a8108990ae5b8eb2e52b:1027215706,875aabae0f56a810f6b1797fe74e5ce6:-1861733094,b2c7e7eacc56a810dca7d8bf05f124f1:463444835,ee366baa2556a8101014e49f193eb6d9:1596958859,45732fe61656a810d5225a3291cfdcb3:-1415536626,def267e6e256a8106cfd3490e08c7176:-1697619880,fb926f664a56a810b6e2083b973dc75c:-197286736,8f32a7a69f56a810b553e9a27c2306c0:-1358150774,1d11ab66a656a8106ce20fe61047171c:174650923,6390ef263156a810a3bb923a3aa896ec:220961266,a5d11ba61216a81075363f07500d158a:857821678,1af5036ef4d2a810a816e7c096fbd620:-1514625528,b6a5872e77d2a8106334a05bd01bc0ee:-1916712759,f265c72e3cd2a810fa7772c15af04a96:-1504897549,68158feac9d2a810a820ab72a69dcd7a:779708759,a2b483eadad2a8104f6f22b70de8e9a2:-325969487,f0f3c3ea26d2a810b1107a56c5fc00e0:1676674316,46a3cfaafbd2a81026ee46854cd5714c:-1916712759,61534baa90d2a810024c07cb19b053f7:-1514625528,bcb20f6adbd2a810e7e065120aee7018:-1586067038,0e72c76a95d2a810fc3b807ed93f255c:1836069755,baf1076a13d2a810f96ff67d1f582fec:-2098207463,4c71cb2a3cd2a81081c215ee628884b0:-1841629190,4f21872a49d2a810ff9d0f5b1cc1bc6b:878731354,866bb6e2a7d2a810a4faf7f0d4f49a48:966999652,adf8ba2218d2a81064ced9339d2c8b55:-814167356,77983622acd2a8102221822f6dbb437f:1300734982,2e124ae2b912a810cd0d2b65bde918dd:2132616607</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-17 05:43:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>25e4c395ab8540928eea9d8464c46ac4</sys_id>
+        <sys_metadata>2db10ee22f12a810552b58a72799b64b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cases</sys_name>
+        <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+        <sys_parent display_value="Property">58ce70ff2f7da010552b58a72799b6fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+        <sys_scope_delete display_value="">3660a1e35308420686a0d62ef986f504</sys_scope_delete>
+        <sys_update_name>sys_relationship_2db10ee22f12a810552b58a72799b64b</sys_update_name>
+        <sys_update_version display_value="sys_relationship_2db10ee22f12a810552b58a72799b64b">477817be2f52e810552b58a72799b6d5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-17 05:43:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

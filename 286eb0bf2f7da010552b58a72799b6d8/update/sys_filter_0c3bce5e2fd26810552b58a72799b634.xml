@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="INSERT_OR_UPDATE">
+        <filter table="sn_customerservice_case">x_538229_realestat_propert_idSAMEASx_538229_realestat_propert_id...^EQ<item endquery="false" field="x_538229_realestat_propert_id" goto="false" newquery="false" operator="SAMEAS" or="false" value="x_538229_realestat_propert_id..."/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group/>
+        <last_used/>
+        <mobile>false</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 09:38:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0c3bce5e2fd26810552b58a72799b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>tt</sys_name>
+        <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+        <sys_update_name>sys_filter_0c3bce5e2fd26810552b58a72799b634</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-15 09:38:32</sys_updated_on>
+        <table>sn_customerservice_case</table>
+        <title>tt</title>
+        <user/>
+    </sys_filter>
+    <sys_translated_text action="delete_multiple" query="documentkey=0c3bce5e2fd26810552b58a72799b634"/>
+</record_update>

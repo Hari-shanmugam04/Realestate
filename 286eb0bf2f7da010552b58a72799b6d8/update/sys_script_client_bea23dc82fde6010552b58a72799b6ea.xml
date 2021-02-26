@@ -28,8 +28,8 @@
    if(!regex.test(newValue)){
 
 
-   alert('Incorrect tower number value');
-
+   //alert('Incorrect tower number value');
+g_form.addErrorMessage('Incorrect tower number value');
 
    g_form.setValue('tower_number','');
 
@@ -47,7 +47,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bea23dc82fde6010552b58a72799b6ea</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>RegExpTowerNo</sys_name>
         <sys_overrides/>
         <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
@@ -55,7 +55,7 @@
         <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
         <sys_update_name>sys_script_client_bea23dc82fde6010552b58a72799b6ea</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-08 08:04:41</sys_updated_on>
+        <sys_updated_on>2021-02-17 03:50:54</sys_updated_on>
         <table>x_538229_realestat_property</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

@@ -6,7 +6,7 @@
         <action_insert>true</action_insert>
         <action_query>false</action_query>
         <action_update>false</action_update>
-        <active>true</active>
+        <active>false</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -29,15 +29,15 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
-// rightnow stores the current time
+
 	var rightnow = new GlideDateTime();
-	// Create a GlideDateTime object for the When needed date
+
 	var whenNeeded = new GlideDateTime(current.start_date);
 	
-	// If the When needed date is before rightnow, do not write the record to the database
-	// Output an error message to the screen
+	
+	
 	if(whenNeeded.before(rightnow)){
-		gs.addErrorMessage("When start date cannot be in the past.");
+		gs.addErrorMessage("Start date is invalid.");
 		current.setAbortAction(true);
 	}
 
@@ -48,7 +48,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>97d25a412f566410552b58a72799b693</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Leasestartdatevalidation</sys_name>
         <sys_overrides/>
         <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
@@ -56,7 +56,7 @@
         <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
         <sys_update_name>sys_script_97d25a412f566410552b58a72799b693</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-11 13:07:33</sys_updated_on>
+        <sys_updated_on>2021-02-17 06:49:33</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

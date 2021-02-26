@@ -28,8 +28,8 @@
    if(!regex.test(newValue)){
 
 
-   alert('Incorrect Unit price value');
-
+   //alert('Incorrect Unit price value');
+g_form.addErrorMessage('Incorrect unit price value');
 g_form.setValue('unit_price','');
 
    }
@@ -44,7 +44,7 @@ g_form.setValue('unit_price','');
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9d8d7d772fc26010552b58a72799b67f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>RegExpUnitprice</sys_name>
         <sys_overrides/>
         <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
@@ -52,7 +52,7 @@ g_form.setValue('unit_price','');
         <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
         <sys_update_name>sys_script_client_9d8d7d772fc26010552b58a72799b67f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-08 08:21:48</sys_updated_on>
+        <sys_updated_on>2021-02-17 03:51:17</sys_updated_on>
         <table>x_538229_realestat_property</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

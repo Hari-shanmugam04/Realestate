@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="DELETE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_538229_realestat_property</basic_apply_to>
+        <basic_query_from>x_538229_realestat_lease</basic_query_from>
+        <insert_callback/>
+        <name>Lease</name>
+        <query_from/>
+        <query_with><![CDATA[var demo =new GlideRecord('x_538229_realestat_lease');
+var a=demo.addJoinQuery('x_538229_realestat_lease_lines');
+a.addQuery('number',a.number);]]></query_with>
+        <reference_field>consumer</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-15 09:12:49</sys_created_on>
+        <sys_id>74a54a5a2fd26810552b58a72799b652</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Lease</sys_name>
+        <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+        <sys_update_name>sys_relationship_74a54a5a2fd26810552b58a72799b652</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-22 08:54:33</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="DELETE" query="documentkey=74a54a5a2fd26810552b58a72799b652"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</application>
+        <file_path/>
+        <instance_id>d3aedbeadbd15f844c1ff70fbf9619b6</instance_id>
+        <instance_name>dev55569</instance_name>
+        <name>sys_relationship_74a54a5a2fd26810552b58a72799b652</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;x_538229_realestat_property&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;x_538229_realestat_lease&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Lease&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[var demo =new GlideRecord('x_538229_realestat_lease');
+var a=demo.addJoinQuery('x_538229_realestat_lease_lines');
+a.addQuery('number',a.number);]]&gt;&lt;/query_with&gt;&lt;reference_field&gt;consumer&lt;/reference_field&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-15 09:12:49&lt;/sys_created_on&gt;&lt;sys_id&gt;74a54a5a2fd26810552b58a72799b652&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;Lease&lt;/sys_name&gt;&lt;sys_package display_value="REALESTATE" source="x_538229_realestat"&gt;286eb0bf2f7da010552b58a72799b6d8&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="REALESTATE"&gt;286eb0bf2f7da010552b58a72799b6d8&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_74a54a5a2fd26810552b58a72799b652&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-22 08:54:33&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=74a54a5a2fd26810552b58a72799b652"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1043192756</payload_hash>
+        <record_name>Lease</record_name>
+        <reverted_from/>
+        <source>c55353dc2f12e010552b58a72799b6b3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-22 08:54:34</sys_created_on>
+        <sys_id>5eb44a6c2f262010552b58a72799b638</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177c8f289530000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-22 08:54:34</sys_updated_on>
+        <type>Relationship</type>
+        <update_guid>c2b44a6ca8262010e8b3a58782c0aa38</update_guid>
+        <update_guid_history>c2b44a6ca8262010e8b3a58782c0aa38:-1043192756,fc5d41205ca22010abe6fb866a5fbf4d:969387876,917cc56c696220104a77be51f6bd7e50:-942182911,8dc5825a44d2681096779f29b5e3ecd7:-1928854798</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-22 08:55:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_relationship">sys_relationship</sys_db_object>
+        <sys_id>3174eceb948e4b048405c905446ac310</sys_id>
+        <sys_metadata>74a54a5a2fd26810552b58a72799b652</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lease</sys_name>
+        <sys_package display_value="REALESTATE" source="x_538229_realestat">286eb0bf2f7da010552b58a72799b6d8</sys_package>
+        <sys_parent display_value="Property">58ce70ff2f7da010552b58a72799b6fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="REALESTATE">286eb0bf2f7da010552b58a72799b6d8</sys_scope>
+        <sys_scope_delete display_value="">3660a1e35308420686a0d62ef986f504</sys_scope_delete>
+        <sys_update_name>sys_relationship_74a54a5a2fd26810552b58a72799b652</sys_update_name>
+        <sys_update_version display_value="sys_relationship_74a54a5a2fd26810552b58a72799b652">5eb44a6c2f262010552b58a72799b638</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-22 08:55:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
